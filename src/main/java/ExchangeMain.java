@@ -106,7 +106,7 @@ public class ExchangeMain {
                                 double ratio = Double.parseDouble(scanner.nextLine());
                                 exchangeEUR.setUSD(ratio);
                             } else if (adminChoice == 3) {
-                                System.out.println("The current EUR exchange ratio into RON is: " + exchangeEUR.getUSD());
+                                System.out.println("The current EUR exchange ratio into RON is: " + exchangeEUR.getRON());
                                 System.out.println("Insert new ratio: ");
                                 double ratio = Double.parseDouble(scanner.nextLine());
                                 exchangeEUR.setRON(ratio);
